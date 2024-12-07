@@ -4,7 +4,10 @@ import 'package:first_app/Modules/Class-3/Container_Guide/container_guide_view.d
 import 'package:first_app/Modules/Class-3/Row_Guide/row_guide_view.dart';
 import 'package:first_app/Modules/Class-3/Scaffold_Guide/scaffold_guide_view.dart';
 import 'package:first_app/Modules/Class-4/CardGuide/card_guide_view.dart';
+import 'package:first_app/Modules/Class-4/circleAvatorWidget/circle_avatar_guide_view.dart';
 import 'package:first_app/Modules/Class-4/containerDetailsGuide/container_details_guide_view.dart';
+import 'package:first_app/Modules/Class-4/imageWidget/image_guide_view.dart';
+import 'package:first_app/Modules/Class-4/lisTileWidget/list_tile_widget_view.dart';
 import 'package:first_app/Modules/Class-4/listViewGuide/list_view_guide_view.dart';
 import 'package:flutter/material.dart';
 
@@ -19,6 +22,9 @@ class HomeScreen extends StatelessWidget {
      {'title': 'Container-Details Example', 'page': ContainerDetailsGuide() },
      {'title': 'Card-Guide Example', 'page': CardGuide() },
      {'title': 'List-View-Guide Example', 'page': ListViewGuide() },
+     {'title': 'LisTile-Guide Example', 'page': ListTileGuide() },
+     {'title': 'Image-Guide Example', 'page': ImageGuide() },
+     {'title': 'Circle Avatar Guide', 'page': CircleAvatarGuide()}
     // {'title': 'Text Example', 'page': TextExample()},
     // {'title': 'SizedBox Example', 'page': SizedBoxExample()},
     // {'title': 'Center Example', 'page': CenterExample()},
