@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-class RowExample extends StatelessWidget {
+class CollumnExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Row Example')),
+      appBar: AppBar(title: Text('Collumn Example')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -14,7 +14,7 @@ class RowExample extends StatelessWidget {
             ),
             Icon(Icons.star, color: Colors.yellow),
             
-            Text('Row Example'),
+            Text('Collumn Example'),
             
           ],
         ),
