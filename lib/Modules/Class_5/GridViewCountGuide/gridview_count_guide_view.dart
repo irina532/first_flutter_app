@@ -7,12 +7,13 @@ class GridViewCountGuide extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(title: Text('Grid View Count Guide'),),
       body: GridView.count(
         crossAxisCount: 4,
         crossAxisSpacing: 10,
         mainAxisSpacing: 10,
         padding: EdgeInsets.all(10),
-        children: List.generate(12, (index) {
+        children: List.generate(22, (index) {
           return Container(
             decoration: BoxDecoration(
               color: Colors.orange,

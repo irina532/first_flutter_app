@@ -7,16 +7,18 @@ class FittedBoxGuide extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(title: Text('Fitted Box Guide'),),
       body: Center(
         child: Container(
-          height: 50,
-          width: 122,
+          padding: EdgeInsets.only(left: 20),
+          height: 100,
+          width: 222,
           color: Colors.blue,
           child: FittedBox(
             fit: BoxFit.contain,
             alignment: Alignment.center,
             child: Text(
-              'FittedBox Example',
+              'Allah Vorosha',
               style: TextStyle(color: Colors.white, ),
             ),
           ),
